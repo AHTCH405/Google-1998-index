@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    background-color: #EEEEEE;
+
+}
+
+main p {
+    font-size: 18px;
+}
+
+main input {
+    width: 30%;
+    padding: 2px;
+}
+
+main button {
+    padding: 3px;
+}
+
+section {
+    display: flex;
+    margin-top: 4px;
+    justify-content: space-between;
+}
+
+section .box1{
+    width: 40%;
+    background-color: #7EE5DA;
+    padding: 8px;
+    text-align: center;
+}
+
+section .box2 {
+    width: 19.5%;
+    background-color: #70CCC2;
+    padding: 8px;
+    text-align: center;
+}
+
+section .box3 {
+    width: 40%;
+    background-color: #62B3AA;
+    padding: 8px;
+    text-align: center;
+}
+
+section .box3 input {
+    width: 40%;
+    padding: 2px;
+}
+
+section .box3 button {
+    padding: 2px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 4px;
+}
